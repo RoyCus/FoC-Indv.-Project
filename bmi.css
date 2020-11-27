@@ -1,0 +1,90 @@
+body {
+  background-color: #333;
+  color: #ddd;
+  margin: 2em;
+}
+
+h1 {
+  color: #6cf;
+  font-size: 1.5em;
+}
+
+#inputs {
+  margin-top: 2em;
+}
+
+h2 {
+  margin-top: 2em;
+  color: #6cf;
+  font-size: 1.25em;
+}
+
+a {
+  color: #3cf;
+}
+
+input {
+  background-color: #444;
+  border: 1px solid #eee;
+  color: #fff;
+  font-size: 0.95em;
+  margin-right: 0.6em;
+  padding: 0.2em;
+}
+
+button {
+  border: 1px solid #eee;
+  background-color: #38f;
+  color: #000;
+  margin-right: 0.6em;
+  font-size: 0.95em;
+  padding: 0.2em;
+}
+
+#result {
+  display: none;
+}
+
+#bmi, #category {
+  font-weight: bold;
+}
+
+.bmi-underweight {
+  color: #38f;
+}
+
+.bmi-normal {
+  color: #3f3;
+}
+
+.bmi-overweight {
+  color: #ff3;
+}
+
+.bmi-obese-class-i {
+  color: #fa3;
+}
+
+.bmi-obese-class-ii {
+  color: #f63;
+}
+
+.bmi-obese-class-iii {
+  color: #f33;
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+#unit-selector label {
+  display: block;
+  margin-bottom: 0.25em;
+}
+
+@media (max-width: 800px) {
+  button, input[type="text"] {
+    display: block;
+    margin-bottom: 1em;
+  }
+}
